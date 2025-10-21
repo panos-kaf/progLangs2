@@ -1,0 +1,814 @@
+DIGEST 2588956c7bb7fec409a1e424c761441b
+Fassignment2
+R27:34 Stdlib.Init.Nat <> <> lib
+R36:46 Stdlib.Arith.Arith <> <> lib
+R48:57 Stdlib.Lists.List <> <> lib
+R67:79 Stdlib.Lists.List ListNotations <> mod
+def 2936:2939 <> comp
+binder 2942:2942 <> A:1
+binder 2944:2944 <> B:2
+binder 2946:2946 <> C:3
+R2962:2965 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2961:2961 assignment2 <> B:2 var
+R2966:2966 assignment2 <> C:3 var
+binder 2957:2957 <> g:4
+R2975:2978 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2974:2974 assignment2 <> A:1 var
+R2979:2979 assignment2 <> B:2 var
+binder 2970:2970 <> f:5
+R2985:2988 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2984:2984 assignment2 <> A:1 var
+R2989:2989 assignment2 <> C:3 var
+binder 3000:3000 <> x:6
+R3005:3005 assignment2 <> g:4 var
+R3008:3008 assignment2 <> f:5 var
+R3010:3010 assignment2 <> x:6 var
+def 3219:3225 <> inverse
+binder 3228:3228 <> A:7
+binder 3230:3230 <> B:8
+R3239:3242 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3238:3238 assignment2 <> B:8 var
+R3243:3243 assignment2 <> A:7 var
+binder 3234:3234 <> h:9
+R3252:3255 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3251:3251 assignment2 <> A:7 var
+R3256:3256 assignment2 <> B:8 var
+binder 3247:3247 <> f:10
+binder 3276:3276 <> x:11
+R3286:3288 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3279:3279 assignment2 <> h:9 var
+R3281:3281 assignment2 <> f:10 var
+R3283:3283 assignment2 <> x:11 var
+R3289:3289 assignment2 <> x:11 var
+def 3524:3532 <> injective
+binder 3535:3535 <> A:12
+binder 3537:3537 <> B:13
+R3546:3549 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3545:3545 assignment2 <> A:12 var
+R3550:3550 assignment2 <> B:13 var
+binder 3541:3541 <> f:14
+binder 3570:3571 <> x1:15
+binder 3573:3574 <> x2:16
+R3590:3593 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3582:3584 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3577:3577 assignment2 <> f:14 var
+R3579:3580 assignment2 <> x1:15 var
+R3585:3585 assignment2 <> f:14 var
+R3587:3588 assignment2 <> x2:16 var
+R3596:3598 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3594:3595 assignment2 <> x1:15 var
+R3599:3600 assignment2 <> x2:16 var
+prf 3772:3793 <> left_inverse_injective
+binder 3806:3806 <> A:17
+binder 3808:3808 <> B:18
+R3816:3819 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3815:3815 assignment2 <> A:17 var
+R3820:3820 assignment2 <> B:18 var
+binder 3811:3811 <> f:19
+R3829:3832 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3828:3828 assignment2 <> B:18 var
+R3833:3833 assignment2 <> A:17 var
+binder 3824:3824 <> h:20
+R3852:3859 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3841:3847 assignment2 <> inverse def
+R3851:3851 assignment2 <> f:19 var
+R3849:3849 assignment2 <> h:20 var
+R3860:3868 assignment2 <> injective def
+R3870:3870 assignment2 <> f:19 var
+R3916:3924 assignment2 <> injective def
+R3974:3976 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3974:3976 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+ind 4423:4425 <> bin
+constr 4439:4439 <> Z
+constr 4449:4450 <> B0
+constr 4467:4468 <> B1
+R4443:4445 assignment2 <> bin:21 ind
+R4457:4460 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4454:4456 assignment2 <> bin:21 ind
+R4461:4463 assignment2 <> bin:21 ind
+R4475:4478 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4472:4474 assignment2 <> bin:21 ind
+R4479:4481 assignment2 <> bin:21 ind
+scheme 4423:4425 <> bin_rect
+scheme 4423:4425 <> bin_ind
+scheme 4423:4425 <> bin_rec
+scheme 4423:4425 <> bin_sind
+def 5257:5260 <> four
+R5264:5266 assignment2 <> bin ind
+R5271:5272 assignment2 <> B0 constr
+R5275:5276 assignment2 <> B0 constr
+R5279:5280 assignment2 <> B1 constr
+R5282:5282 assignment2 <> Z constr
+def 5402:5406 <> three
+R5410:5412 assignment2 <> bin ind
+R5417:5418 assignment2 <> B1 constr
+R5420:5421 assignment2 <> B1 constr
+R5423:5423 assignment2 <> Z constr
+def 5439:5443 <> seven
+R5447:5449 assignment2 <> bin ind
+R5454:5455 assignment2 <> B1 constr
+R5457:5458 assignment2 <> B1 constr
+R5460:5461 assignment2 <> B1 constr
+R5463:5463 assignment2 <> Z constr
+def 5480:5484 <> eight
+R5488:5490 assignment2 <> bin ind
+R5495:5496 assignment2 <> B0 constr
+R5498:5499 assignment2 <> B0 constr
+R5501:5502 assignment2 <> B0 constr
+R5504:5505 assignment2 <> B1 constr
+R5507:5507 assignment2 <> Z constr
+def 5788:5797 <> bin_to_nat
+R5804:5806 assignment2 <> bin ind
+binder 5800:5800 <> b:23
+R5811:5813 Corelib.Init.Datatypes <> nat ind
+R5824:5824 assignment2 <> b:23 var
+R5833:5833 assignment2 <> Z constr
+R5842:5843 assignment2 <> B0 constr
+R5852:5852 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R5853:5862 assignment2 <> bin_to_nat:24 def
+R5870:5871 assignment2 <> B1 constr
+R5895:5897 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R5880:5880 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R5881:5890 assignment2 <> bin_to_nat:24 def
+def 6127:6141 <> test_bin_to_nat
+R6161:6163 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6145:6154 assignment2 <> bin_to_nat def
+R6156:6160 assignment2 <> seven def
+def 6208:6223 <> test_bin_to_nat'
+R6243:6245 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6227:6236 assignment2 <> bin_to_nat def
+R6238:6242 assignment2 <> three def
+def 6290:6306 <> test_bin_to_nat''
+R6337:6339 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6310:6319 assignment2 <> bin_to_nat def
+R6322:6323 assignment2 <> B0 constr
+R6326:6327 assignment2 <> B1 constr
+R6330:6331 assignment2 <> B1 constr
+R6333:6333 assignment2 <> Z constr
+def 6384:6401 <> test_bin_to_nat'''
+R6437:6439 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6405:6414 assignment2 <> bin_to_nat def
+R6417:6418 assignment2 <> B1 constr
+R6421:6422 assignment2 <> B1 constr
+R6425:6426 assignment2 <> B0 constr
+R6429:6430 assignment2 <> B0 constr
+R6432:6432 assignment2 <> Z constr
+def 6484:6502 <> test_bin_to_nat''''
+R6533:6535 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6506:6515 assignment2 <> bin_to_nat def
+R6518:6519 assignment2 <> B1 constr
+R6522:6523 assignment2 <> B1 constr
+R6526:6527 assignment2 <> B0 constr
+R6529:6529 assignment2 <> Z constr
+def 6709:6716 <> bin_incr
+R6723:6725 assignment2 <> bin ind
+binder 6719:6719 <> b:26
+R6730:6732 assignment2 <> bin ind
+R6743:6743 assignment2 <> b:26 var
+R6752:6752 assignment2 <> Z constr
+R6757:6758 assignment2 <> B1 constr
+R6760:6760 assignment2 <> Z constr
+R6764:6765 assignment2 <> B0 constr
+R6773:6774 assignment2 <> B1 constr
+R6781:6782 assignment2 <> B1 constr
+R6790:6791 assignment2 <> B0 constr
+R6794:6801 assignment2 <> bin_incr:27 def
+def 7156:7165 <> nat_to_bin
+R7172:7174 Corelib.Init.Datatypes <> nat ind
+binder 7168:7168 <> n:29
+R7179:7181 assignment2 <> bin ind
+R7192:7192 assignment2 <> n:29 var
+R7206:7206 assignment2 <> Z constr
+R7210:7210 Corelib.Init.Datatypes <> S constr
+R7218:7225 assignment2 <> bin_incr def
+R7227:7236 assignment2 <> nat_to_bin:30 def
+def 7545:7559 <> test_nat_to_bin
+R7575:7578 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7593:7593 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7563:7572 assignment2 <> nat_to_bin def
+R7579:7580 assignment2 <> B1 constr
+R7583:7584 assignment2 <> B1 constr
+R7587:7588 assignment2 <> B1 constr
+R7590:7590 assignment2 <> Z constr
+def 7637:7652 <> test_nat_to_bin'
+R7668:7671 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7686:7686 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7656:7665 assignment2 <> nat_to_bin def
+R7672:7673 assignment2 <> B0 constr
+R7676:7677 assignment2 <> B1 constr
+R7680:7681 assignment2 <> B1 constr
+R7683:7683 assignment2 <> Z constr
+def 7730:7746 <> test_nat_to_bin''
+R7762:7765 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7775:7775 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7750:7759 assignment2 <> nat_to_bin def
+R7766:7767 assignment2 <> B1 constr
+R7770:7771 assignment2 <> B1 constr
+R7773:7773 assignment2 <> Z constr
+R9466:9473 Corelib.Init.Peano <> plus_n_O thm
+R9482:9490 Corelib.Init.Peano <> plus_n_Sm thm
+R9499:9510 Stdlib.Arith.PeanoNat Nat add_comm thm
+prf 9520:9539 <> bin_to_nat_pres_incr
+R9556:9558 assignment2 <> bin ind
+binder 9552:9552 <> b:32
+R9584:9586 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9561:9570 assignment2 <> bin_to_nat def
+R9573:9580 assignment2 <> bin_incr def
+R9582:9582 assignment2 <> b:32 var
+R9588:9591 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R9604:9604 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R9592:9601 assignment2 <> bin_to_nat def
+R9603:9603 assignment2 <> b:32 var
+R9707:9714 Corelib.Init.Peano <> plus_n_O thm
+R9707:9714 Corelib.Init.Peano <> plus_n_O thm
+R9707:9714 Corelib.Init.Peano <> plus_n_O thm
+R9730:9741 Stdlib.Arith.PeanoNat Nat add_comm thm
+R9730:9741 Stdlib.Arith.PeanoNat Nat add_comm thm
+R9730:9741 Stdlib.Arith.PeanoNat Nat add_comm thm
+R9801:9808 Corelib.Init.Peano <> plus_n_O thm
+R9801:9808 Corelib.Init.Peano <> plus_n_O thm
+R9801:9808 Corelib.Init.Peano <> plus_n_O thm
+R9801:9808 Corelib.Init.Peano <> plus_n_O thm
+R9801:9808 Corelib.Init.Peano <> plus_n_O thm
+R9801:9808 Corelib.Init.Peano <> plus_n_O thm
+R9850:9858 Corelib.Init.Peano <> plus_n_Sm thm
+R9850:9858 Corelib.Init.Peano <> plus_n_Sm thm
+R9850:9858 Corelib.Init.Peano <> plus_n_Sm thm
+R9874:9885 Stdlib.Arith.PeanoNat Nat add_comm thm
+R9889:9889 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R9890:9899 assignment2 <> bin_to_nat def
+R9874:9885 Stdlib.Arith.PeanoNat Nat add_comm thm
+R9889:9889 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R9890:9899 assignment2 <> bin_to_nat def
+R9874:9885 Stdlib.Arith.PeanoNat Nat add_comm thm
+R9889:9889 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R9890:9899 assignment2 <> bin_to_nat def
+R9928:9936 Corelib.Init.Peano <> plus_n_Sm thm
+R9928:9936 Corelib.Init.Peano <> plus_n_Sm thm
+R9928:9936 Corelib.Init.Peano <> plus_n_Sm thm
+R9928:9936 Corelib.Init.Peano <> plus_n_Sm thm
+R9928:9936 Corelib.Init.Peano <> plus_n_Sm thm
+R9928:9936 Corelib.Init.Peano <> plus_n_Sm thm
+R9955:9962 Corelib.Init.Peano <> plus_n_O thm
+R9955:9962 Corelib.Init.Peano <> plus_n_O thm
+R9955:9962 Corelib.Init.Peano <> plus_n_O thm
+prf 10484:10494 <> nat_bin_nat
+binder 10507:10507 <> n:33
+R10535:10537 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10510:10519 assignment2 <> bin_to_nat def
+R10522:10531 assignment2 <> nat_to_bin def
+R10533:10533 assignment2 <> n:33 var
+R10538:10538 assignment2 <> n:33 var
+R10631:10650 assignment2 <> bin_to_nat_pres_incr thm
+R10631:10650 assignment2 <> bin_to_nat_pres_incr thm
+R10631:10650 assignment2 <> bin_to_nat_pres_incr thm
+prf 11341:11357 <> nat2bin_injective
+R11363:11371 assignment2 <> injective def
+R11373:11382 assignment2 <> nat_to_bin def
+R11401:11409 assignment2 <> injective def
+R11442:11448 Corelib.Init.Logic <> f_equal thm
+R11450:11459 assignment2 <> bin_to_nat def
+R11442:11448 Corelib.Init.Logic <> f_equal thm
+R11450:11459 assignment2 <> bin_to_nat def
+R11487:11497 assignment2 <> nat_bin_nat thm
+R11487:11497 assignment2 <> nat_bin_nat thm
+R11487:11497 assignment2 <> nat_bin_nat thm
+R11487:11497 assignment2 <> nat_bin_nat thm
+R11487:11497 assignment2 <> nat_bin_nat thm
+R11487:11497 assignment2 <> nat_bin_nat thm
+prf 11533:11553 <> bin2nat_not_injective
+R11557:11563 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11569:11570 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 11564:11565 <> x1:34
+binder 11567:11568 <> x2:35
+R11579:11582 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R11573:11576 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R11571:11572 assignment2 <> x1:34 var
+R11577:11578 assignment2 <> x2:35 var
+R11596:11598 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11583:11592 assignment2 <> bin_to_nat def
+R11594:11595 assignment2 <> x1:34 var
+R11599:11608 assignment2 <> bin_to_nat def
+R11610:11611 assignment2 <> x2:35 var
+R11632:11632 assignment2 <> Z constr
+R11636:11637 assignment2 <> B0 constr
+R11639:11639 assignment2 <> Z constr
+R11632:11632 assignment2 <> Z constr
+R11636:11637 assignment2 <> B0 constr
+R11639:11639 assignment2 <> Z constr
+prf 12081:12085 <> curry
+binder 12099:12099 <> A:36
+binder 12101:12101 <> B:37
+binder 12103:12103 <> C:38
+R12118:12118 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12130:12134 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12125:12128 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12120:12123 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R12119:12119 assignment2 <> A:36 var
+R12124:12124 assignment2 <> B:37 var
+R12129:12129 assignment2 <> C:38 var
+R12136:12139 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12135:12135 assignment2 <> A:36 var
+R12141:12144 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12140:12140 assignment2 <> B:37 var
+R12145:12145 assignment2 <> C:38 var
+prf 12278:12284 <> uncurry
+binder 12298:12298 <> A:39
+binder 12300:12300 <> B:40
+binder 12302:12302 <> C:41
+R12317:12317 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12329:12333 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12319:12322 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12318:12318 assignment2 <> A:39 var
+R12324:12327 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12323:12323 assignment2 <> B:40 var
+R12328:12328 assignment2 <> C:41 var
+R12340:12343 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12335:12338 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R12334:12334 assignment2 <> A:39 var
+R12339:12339 assignment2 <> B:40 var
+R12344:12344 assignment2 <> C:41 var
+prf 12467:12478 <> de_morgan_or
+binder 12492:12492 <> A:42
+binder 12494:12494 <> B:43
+R12515:12518 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12505:12507 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12514:12514 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12509:12512 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R12508:12508 assignment2 <> A:42 var
+R12513:12513 assignment2 <> B:43 var
+R12522:12525 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R12519:12520 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12521:12521 assignment2 <> A:42 var
+R12526:12527 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12528:12528 assignment2 <> B:43 var
+prf 12698:12711 <> contrapositive
+binder 12725:12725 <> A:44
+binder 12727:12727 <> B:45
+R12742:12742 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12749:12754 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12765:12765 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12744:12747 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12743:12743 assignment2 <> A:44 var
+R12748:12748 assignment2 <> B:45 var
+R12758:12761 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R12755:12756 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12757:12757 assignment2 <> B:45 var
+R12762:12763 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12764:12764 assignment2 <> A:44 var
+prf 13141:13153 <> or_to_implies
+binder 13167:13167 <> A:46
+binder 13169:13169 <> B:47
+R13184:13184 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13193:13197 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13188:13191 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R13185:13186 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R13187:13187 assignment2 <> A:46 var
+R13192:13192 assignment2 <> B:47 var
+R13199:13202 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13198:13198 assignment2 <> A:46 var
+R13203:13203 assignment2 <> B:47 var
+prf 13493:13505 <> implies_to_or
+binder 13519:13519 <> A:48
+binder 13521:13521 <> B:49
+R13536:13536 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13543:13547 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13538:13541 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13537:13537 assignment2 <> A:48 var
+R13542:13542 assignment2 <> B:49 var
+R13551:13554 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R13548:13549 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R13550:13550 assignment2 <> A:48 var
+R13555:13555 assignment2 <> B:49 var
+def 13855:13856 <> EM
+binder 13875:13875 <> P:50
+R13879:13882 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R13878:13878 assignment2 <> P:50 var
+R13883:13883 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R13884:13884 assignment2 <> P:50 var
+prf 13894:13909 <> EM_implies_to_or
+R13919:13926 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13917:13918 assignment2 <> EM def
+binder 13935:13935 <> A:51
+binder 13937:13937 <> B:52
+R13948:13948 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13955:13959 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13950:13953 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13949:13949 assignment2 <> A:51 var
+R13954:13954 assignment2 <> B:52 var
+R13963:13966 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R13960:13961 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R13962:13962 assignment2 <> A:51 var
+R13967:13967 assignment2 <> B:52 var
+prf 14148:14163 <> implies_to_or_EM
+R14169:14169 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R14213:14219 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+binder 14178:14178 <> A:53
+binder 14180:14180 <> B:54
+R14192:14192 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R14199:14203 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R14194:14197 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R14193:14193 assignment2 <> A:53 var
+R14198:14198 assignment2 <> B:54 var
+R14207:14210 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R14204:14205 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14206:14206 assignment2 <> A:53 var
+R14211:14211 assignment2 <> B:54 var
+R14220:14221 assignment2 <> EM def
+def 14886:14888 <> DNE
+binder 14907:14907 <> P:55
+R14914:14917 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R14910:14910 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14911:14912 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R14913:14913 assignment2 <> P:55 var
+R14918:14918 assignment2 <> P:55 var
+prf 15567:15572 <> DNE_EM
+R15579:15583 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R15576:15578 assignment2 <> DNE def
+R15584:15585 assignment2 <> EM def
+R15604:15606 assignment2 <> DNE def
+R15609:15610 assignment2 <> EM def
+R16090:16101 assignment2 <> de_morgan_or thm
+R16090:16101 assignment2 <> de_morgan_or thm
+ind 16707:16709 <> All
+constr 16753:16759 <> all_nil
+constr 16775:16782 <> all_cons
+binder 16712:16712 <> A:56
+R16721:16724 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R16720:16720 assignment2 <> A:56 var
+binder 16716:16716 <> P:57
+R16739:16742 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R16733:16736 Corelib.Init.Datatypes <> list ind
+R16763:16765 assignment2 <> All:58 ind
+R16769:16771 Corelib.Init.Datatypes <> nil constr
+R16767:16767 assignment2 <> P:57 var
+R16798:16798 assignment2 <> A:56 var
+binder 16794:16794 <> x:60
+binder 16801:16801 <> l:61
+R16807:16810 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R16804:16804 assignment2 <> P:57 var
+R16806:16806 assignment2 <> x:60 var
+R16818:16821 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R16811:16813 assignment2 <> All:58 ind
+R16817:16817 assignment2 <> l:61 var
+R16815:16815 assignment2 <> P:57 var
+R16822:16824 assignment2 <> All:58 ind
+R16830:16831 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16829:16829 assignment2 <> x:60 var
+R16832:16832 assignment2 <> l:61 var
+R16826:16826 assignment2 <> P:57 var
+scheme 16707:16709 <> All_ind
+scheme 16707:16709 <> All_sind
+def 17145:17148 <> Even
+R17155:17157 Corelib.Init.Datatypes <> nat ind
+binder 17151:17151 <> n:62
+R17178:17178 assignment2 <> n:62 var
+R17189:17189 Corelib.Init.Datatypes <> O constr
+R17194:17197 Corelib.Init.Logic <> True ind
+R17203:17203 Corelib.Init.Datatypes <> S constr
+R17205:17205 Corelib.Init.Datatypes <> O constr
+R17210:17214 Corelib.Init.Logic <> False ind
+R17220:17220 Corelib.Init.Datatypes <> S constr
+R17223:17223 Corelib.Init.Datatypes <> S constr
+R17232:17235 assignment2 <> Even:63 def
+def 17256:17264 <> All_test1
+R17268:17270 assignment2 <> All ind
+R17277:17277 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R17279:17279 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R17281:17281 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R17284:17284 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R17286:17286 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R17272:17275 assignment2 <> Even def
+def 17361:17369 <> All_test2
+R17373:17374 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R17375:17377 assignment2 <> All ind
+R17384:17384 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R17386:17386 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R17388:17388 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R17391:17391 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R17393:17393 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R17379:17382 assignment2 <> Even def
+prf 17811:17817 <> All_app
+binder 17830:17830 <> A:65
+binder 17832:17832 <> P:66
+R17843:17846 Corelib.Init.Datatypes <> list ind
+R17848:17848 assignment2 <> A:65 var
+binder 17835:17836 <> l1:67
+binder 17838:17839 <> l2:68
+R17864:17871 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R17856:17858 assignment2 <> All ind
+R17862:17863 assignment2 <> l1:67 var
+R17860:17860 assignment2 <> P:66 var
+R17880:17887 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R17872:17874 assignment2 <> All ind
+R17878:17879 assignment2 <> l2:68 var
+R17876:17876 assignment2 <> P:66 var
+R17888:17890 assignment2 <> All ind
+R17897:17900 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17895:17896 assignment2 <> l1:67 var
+R17901:17902 assignment2 <> l2:68 var
+R17892:17892 assignment2 <> P:66 var
+R17995:18002 assignment2 <> all_cons constr
+R17995:18002 assignment2 <> all_cons constr
+prf 18338:18344 <> All_rev
+binder 18357:18357 <> A:69
+binder 18359:18359 <> P:70
+R18366:18369 Corelib.Init.Datatypes <> list ind
+R18371:18371 assignment2 <> A:69 var
+binder 18362:18362 <> l:71
+R18386:18393 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R18379:18381 assignment2 <> All ind
+R18385:18385 assignment2 <> l:71 var
+R18383:18383 assignment2 <> P:70 var
+R18394:18396 assignment2 <> All ind
+R18401:18403 Stdlib.Lists.List <> rev def
+R18405:18405 assignment2 <> l:71 var
+R18398:18398 assignment2 <> P:70 var
+R18494:18500 assignment2 <> All_app thm
+R18494:18500 assignment2 <> All_app thm
+prf 18745:18751 <> All_and
+binder 18765:18765 <> A:72
+R18783:18786 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R18782:18782 assignment2 <> A:72 var
+binder 18776:18776 <> P:73
+binder 18778:18778 <> Q:74
+R18798:18801 Corelib.Init.Datatypes <> list ind
+R18803:18803 assignment2 <> A:72 var
+binder 18794:18794 <> l:75
+R18821:18824 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R18811:18816 Corelib.Lists.ListDef <> Forall ind
+R18820:18820 assignment2 <> l:75 var
+R18818:18818 assignment2 <> P:73 var
+R18835:18838 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R18825:18830 Corelib.Lists.ListDef <> Forall ind
+R18834:18834 assignment2 <> l:75 var
+R18832:18832 assignment2 <> Q:74 var
+R18839:18844 Corelib.Lists.ListDef <> Forall ind
+R18872:18872 assignment2 <> l:75 var
+R18855:18855 assignment2 <> A:72 var
+binder 18851:18851 <> x:76
+R18863:18866 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R18860:18860 assignment2 <> P:73 var
+R18862:18862 assignment2 <> x:76 var
+R18867:18867 assignment2 <> Q:74 var
+R18869:18869 assignment2 <> x:76 var
+prf 18923:18929 <> All_map
+binder 18942:18942 <> A:77
+binder 18944:18944 <> B:78
+binder 18946:18946 <> P:79
+R18953:18956 Corelib.Init.Datatypes <> list ind
+R18958:18958 assignment2 <> A:77 var
+binder 18949:18949 <> l:80
+R18967:18970 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R18966:18966 assignment2 <> A:77 var
+R18971:18971 assignment2 <> B:78 var
+binder 18962:18962 <> f:81
+R19003:19010 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R18979:18981 assignment2 <> All ind
+R19002:19002 assignment2 <> l:80 var
+binder 18988:18988 <> x:82
+R18993:18993 assignment2 <> P:79 var
+R18996:18996 assignment2 <> f:81 var
+R18998:18998 assignment2 <> x:82 var
+R19011:19013 assignment2 <> All ind
+R19018:19020 Corelib.Lists.ListDef <> map def
+R19024:19024 assignment2 <> l:80 var
+R19022:19022 assignment2 <> f:81 var
+R19015:19015 assignment2 <> P:79 var
+def 20001:20009 <> fold_left
+binder 20012:20012 <> A:83
+binder 20014:20014 <> B:84
+R20023:20026 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20022:20022 assignment2 <> A:83 var
+R20028:20031 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R20027:20027 assignment2 <> B:84 var
+R20032:20032 assignment2 <> A:83 var
+binder 20018:20018 <> f:85
+R20040:20043 Corelib.Init.Datatypes <> list ind
+R20045:20045 assignment2 <> B:84 var
+binder 20036:20036 <> l:86
+R20053:20053 assignment2 <> A:83 var
+binder 20049:20049 <> i:87
+R20058:20058 assignment2 <> A:83 var
+R20069:20069 assignment2 <> l:86 var
+R20079:20080 Stdlib.Lists.List ListNotations ::list_scope:'['_']' not
+R20085:20085 assignment2 <> i:87 var
+R20091:20092 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20099:20107 assignment2 <> fold_left:88 def
+R20115:20115 assignment2 <> f:85 var
+R20117:20117 assignment2 <> i:87 var
+R20109:20109 assignment2 <> f:85 var
+def 20313:20318 <> length
+R20325:20328 Corelib.Init.Datatypes <> list ind
+R20330:20332 Corelib.Init.Datatypes <> nat ind
+binder 20321:20321 <> l:90
+R20337:20339 Corelib.Init.Datatypes <> nat ind
+R20344:20352 assignment2 <> fold_left def
+R20370:20370 assignment2 <> l:90 var
+binder 20358:20358 <> x:91
+R20365:20365 Corelib.Init.Datatypes <> S constr
+R20367:20367 assignment2 <> x:91 var
+def 20414:20424 <> test_length
+R20444:20446 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20428:20433 assignment2 <> length def
+R20435:20435 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20437:20437 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20439:20439 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20441:20441 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20443:20443 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+def 20723:20725 <> sum
+R20732:20735 Corelib.Init.Datatypes <> list ind
+R20737:20739 Corelib.Init.Datatypes <> nat ind
+binder 20728:20728 <> l:92
+R20744:20746 Corelib.Init.Datatypes <> nat ind
+R20751:20759 assignment2 <> fold_left def
+R20778:20778 assignment2 <> l:92 var
+binder 20766:20766 <> x:93
+binder 20768:20768 <> y:94
+R20774:20774 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R20773:20773 assignment2 <> x:93 var
+R20775:20775 assignment2 <> y:94 var
+def 20817:20824 <> test_sum
+R20841:20843 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20828:20830 assignment2 <> sum def
+R20832:20832 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20834:20834 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20836:20836 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20838:20838 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20840:20840 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+def 22031:22040 <> fold_right
+binder 22043:22043 <> A:95
+binder 22045:22045 <> B:96
+R22054:22057 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R22053:22053 assignment2 <> B:96 var
+R22059:22062 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R22058:22058 assignment2 <> A:95 var
+R22063:22063 assignment2 <> A:95 var
+binder 22049:22049 <> f:97
+R22071:22074 Corelib.Init.Datatypes <> list ind
+R22076:22076 assignment2 <> B:96 var
+binder 22067:22067 <> l:98
+R22085:22085 assignment2 <> A:95 var
+binder 22080:22081 <> a0:99
+R22090:22090 assignment2 <> A:95 var
+R22101:22101 assignment2 <> l:98 var
+R22110:22111 Stdlib.Lists.List ListNotations ::list_scope:'['_']' not
+R22116:22117 assignment2 <> a0:99 var
+R22122:22123 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22130:22130 assignment2 <> f:97 var
+R22135:22144 assignment2 <> fold_right:100 def
+R22151:22152 assignment2 <> a0:99 var
+R22146:22146 assignment2 <> f:97 var
+def 22348:22354 <> length'
+R22361:22364 Corelib.Init.Datatypes <> list ind
+R22366:22368 Corelib.Init.Datatypes <> nat ind
+binder 22357:22357 <> l:102
+R22373:22375 Corelib.Init.Datatypes <> nat ind
+R22380:22389 assignment2 <> fold_right def
+R22407:22407 assignment2 <> l:102 var
+binder 22397:22397 <> x:103
+R22402:22402 Corelib.Init.Datatypes <> S constr
+R22404:22404 assignment2 <> x:103 var
+def 22450:22461 <> test_length'
+R22482:22484 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22465:22471 assignment2 <> length' def
+R22473:22473 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R22475:22475 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R22477:22477 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R22479:22479 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R22481:22481 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+def 22762:22765 <> sum'
+R22772:22775 Corelib.Init.Datatypes <> list ind
+R22777:22779 Corelib.Init.Datatypes <> nat ind
+binder 22768:22768 <> l:104
+R22784:22786 Corelib.Init.Datatypes <> nat ind
+R22791:22800 assignment2 <> fold_right def
+R22818:22818 assignment2 <> l:104 var
+binder 22806:22806 <> x:105
+binder 22808:22808 <> y:106
+R22814:22814 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R22813:22813 assignment2 <> x:105 var
+R22815:22815 assignment2 <> y:106 var
+def 22858:22866 <> test_sum'
+R22884:22886 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22870:22873 assignment2 <> sum' def
+R22875:22875 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R22877:22877 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R22879:22879 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R22881:22881 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R22883:22883 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+prf 23650:23666 <> fold_right_append
+binder 23677:23677 <> A:107
+binder 23679:23679 <> B:108
+R23687:23690 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R23686:23686 assignment2 <> B:108 var
+R23692:23695 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R23691:23691 assignment2 <> A:107 var
+R23696:23696 assignment2 <> A:107 var
+binder 23682:23682 <> f:109
+binder 23699:23700 <> l1:110
+binder 23702:23703 <> l2:111
+binder 23705:23705 <> i:112
+R23735:23737 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23710:23719 assignment2 <> fold_right def
+R23734:23734 assignment2 <> i:112 var
+R23726:23729 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23724:23725 assignment2 <> l1:110 var
+R23730:23731 assignment2 <> l2:111 var
+R23721:23721 assignment2 <> f:109 var
+R23738:23747 assignment2 <> fold_right def
+R23755:23764 assignment2 <> fold_right def
+R23771:23771 assignment2 <> i:112 var
+R23768:23769 assignment2 <> l2:111 var
+R23766:23766 assignment2 <> f:109 var
+R23751:23752 assignment2 <> l1:110 var
+R23749:23749 assignment2 <> f:109 var
+def 24045:24048 <> flip
+binder 24051:24051 <> A:113
+binder 24053:24053 <> B:114
+R24061:24064 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R24060:24060 assignment2 <> A:113 var
+R24066:24069 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R24065:24065 assignment2 <> B:114 var
+R24070:24070 assignment2 <> A:113 var
+binder 24057:24057 <> f:115
+R24076:24079 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R24075:24075 assignment2 <> B:114 var
+R24081:24084 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R24080:24080 assignment2 <> A:113 var
+R24085:24085 assignment2 <> A:113 var
+binder 24094:24094 <> x:116
+binder 24096:24096 <> y:117
+R24101:24101 assignment2 <> f:115 var
+R24105:24105 assignment2 <> x:116 var
+R24103:24103 assignment2 <> y:117 var
+prf 24118:24137 <> fold_left_fold_right
+binder 24148:24148 <> A:118
+binder 24150:24150 <> B:119
+R24158:24161 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R24157:24157 assignment2 <> A:118 var
+R24163:24166 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R24162:24162 assignment2 <> B:119 var
+R24167:24167 assignment2 <> A:118 var
+binder 24153:24153 <> f:120
+R24175:24178 Corelib.Init.Datatypes <> list ind
+R24180:24180 assignment2 <> B:119 var
+binder 24171:24171 <> l:121
+R24188:24188 assignment2 <> A:118 var
+binder 24184:24184 <> i:122
+R24208:24210 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24193:24201 assignment2 <> fold_left def
+R24207:24207 assignment2 <> i:122 var
+R24205:24205 assignment2 <> l:121 var
+R24203:24203 assignment2 <> f:120 var
+R24211:24220 assignment2 <> fold_right def
+R24239:24239 assignment2 <> i:122 var
+R24232:24234 Stdlib.Lists.List <> rev def
+R24236:24236 assignment2 <> l:121 var
+R24223:24226 assignment2 <> flip def
+R24228:24228 assignment2 <> f:120 var
+R24383:24399 assignment2 <> fold_right_append thm
+R24383:24399 assignment2 <> fold_right_append thm
+R24383:24399 assignment2 <> fold_right_append thm
+def 25450:25452 <> foo
+R25461:25463 Corelib.Init.Datatypes <> nat ind
+binder 25455:25455 <> x:123
+binder 25457:25457 <> y:124
+R25468:25470 Corelib.Init.Datatypes <> nat ind
+R25475:25475 assignment2 <> y:124 var
+def 25490:25493 <> foo'
+R25502:25504 Corelib.Init.Datatypes <> nat ind
+binder 25496:25496 <> x:125
+binder 25498:25498 <> y:126
+R25509:25511 Corelib.Init.Datatypes <> nat ind
+R25517:25517 Corelib.Init.Nat <> ::nat_scope:x_'-'_x not
+R25516:25516 assignment2 <> x:125 var
+R25518:25518 assignment2 <> y:126 var
+R25530:25538 assignment2 <> fold_left def
+R25545:25545 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R25547:25547 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R25549:25549 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R25551:25551 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R25540:25543 assignment2 <> foo' def
+R25565:25574 assignment2 <> fold_right def
+R25581:25581 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R25583:25583 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R25585:25585 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R25587:25587 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R25576:25579 assignment2 <> foo' def
+def 25602:25609 <> test_foo
+R25638:25640 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25613:25621 assignment2 <> fold_left def
+R25628:25628 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R25630:25630 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R25632:25632 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R25634:25634 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R25623:25626 assignment2 <> foo' def
+def 25678:25686 <> test_foo'
+R25716:25718 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25690:25699 assignment2 <> fold_right def
+R25706:25706 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R25708:25708 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R25710:25710 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R25712:25712 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R25701:25704 assignment2 <> foo' def
